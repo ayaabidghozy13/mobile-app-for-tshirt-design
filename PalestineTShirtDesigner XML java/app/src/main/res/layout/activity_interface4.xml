@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- Final design preview -->
+    <ImageView
+        android:id="@+id/imageViewFinalDesign"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/d44" />
+
+    <!-- Total price -->
+    <TextView
+        android:id="@+id/textViewPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewFinalDesign"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Total Price: $0.00"
+        android:textColor="#120F0F" /> <!-- White text color -->
+
+    <!-- Button to confirm purchase -->
+    <Button
+        android:id="@+id/buttonConfirmPurchase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPrice"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#CA7B7B"
+        android:drawablePadding="8dp"
+        android:drawableTint="#B66565"
+        android:foregroundTint="#D88686"
+        android:padding="12dp"
+        android:shadowColor="#AF7171"
+        android:text="Confirm Purchase"
+        android:textColor="#090707"
+        android:textColorHighlight="#B56161"
+        android:textColorLink="#E86767"
+        android:textSize="16sp"
+        app:rippleColor="#D57575"
+        app:strokeColor="#CF7C7C" />
+
+    <!-- Additional Button -->
+    <Button
+        android:id="@+id/buttonAddToCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonConfirmPurchase"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Add to Cart"
+        android:textColor="#FFFFFF"
+        android:background="#4CAF50" /> <!-- Custom button background -->
+
+</RelativeLayout>

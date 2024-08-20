@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bb">
+
+    <!-- Menu bar -->
+
+    <!-- Animated logo -->
+
+    <!-- Nom input -->
+
+    <!-- Prénom input -->
+
+    <!-- Login button with animation -->
+    <!-- Apply animation to layout changes -->
+
+    <LinearLayout
+        android:id="@+id/menuBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#974F4F"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextNom"
+        android:layout_width="344dp"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="402dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="259dp"
+        android:backgroundTint="#9C4F4F"
+        android:text="Donner votre nom" />
+
+    <EditText
+        android:id="@+id/editTextPrenom"
+        android:layout_width="343dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="177dp"
+        android:backgroundTint="#9C4F4F"
+        android:inputType="text"
+        android:text="Donnez votre prénom" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="594dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="89dp"
+        android:text="login" />
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bb"> <!-- Custom gradient background -->
+
+    <!-- Animated decorative elements -->
+
+    <!-- Confirmation message -->
+
+    <TextView
+        android:id="@+id/textViewConfirmation"
+        android:layout_width="wrap_content"
+        android:layout_height="87dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="632dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Your order has been confirmed!"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#322B2B"
+        android:textSize="34sp"
+        android:textStyle="bold|italic" /> <!-- White text color -->
+
+</RelativeLayout>

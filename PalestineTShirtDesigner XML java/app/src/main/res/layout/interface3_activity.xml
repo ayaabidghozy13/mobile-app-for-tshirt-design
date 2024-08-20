@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <!-- T-shirt design preview -->
+    <ImageView
+        android:id="@+id/imageViewDesign"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/d44" />
+
+    <!-- Color options -->
+    <RadioGroup
+        android:id="@+id/radioGroupColors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewDesign"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <!-- Add more color options here -->
+        <!-- Color options -->
+
+
+            <RadioButton
+                android:id="@+id/radioButtonRed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#AF3B3B"
+                android:drawableTint="#BF4141"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:foregroundTint="#A52828"
+                android:shadowColor="#5E1616"
+                android:text="Red"
+                android:textColor="#982222"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radioButtonGreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Green"
+                android:textColor="#134215"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radioButtonBlue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Black"
+                android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <!-- Button to go to checkout with custom style -->
+    <Button
+        android:id="@+id/buttonCheckout"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioGroupColors"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="#9F2A2A"
+        android:text="Checkout"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#933636"
+        app:rippleColor="#AC4141"
+        app:strokeColor="#932E2E" /> <!-- Custom button background -->
+
+    <!-- Additional Buttons -->
+    <Button
+        android:id="@+id/buttonAddToCart"
+        android:layout_width="203dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/buttonCheckout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:background="#4CAF50"
+        android:text="Add to Cart"
+        android:textColor="#FFFFFF"
+        app:rippleColor="#388E3C" /> <!-- Custom button background -->
+
+    <Button
+        android:id="@+id/buttonCancel"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAddToCart"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="#607D8B"
+        android:text="Cancel"
+        android:textColor="#FFFFFF"
+        app:rippleColor="#455A64" /> <!-- Custom button background -->
+
+</RelativeLayout>
